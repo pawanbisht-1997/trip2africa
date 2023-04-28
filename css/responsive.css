@@ -1,0 +1,214 @@
+@media(max-width:991px){
+    .pd-0{
+        padding: 0;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .banner_contant {
+        position: absolute;
+        top: 17%;
+        width: 100%;
+        color: #fff;
+    }
+    .main_banner {
+        height: 700px;
+    }
+    .video_banner video {
+        height: 700px;
+    }
+    header nav .logo {
+        width: 20%;
+    }
+    .video_banner .transparent {
+        top: 0;
+        background: linear-gradient(79deg, #000000c7, transparent);
+        height: 700px;
+    }
+    .testimonial .cta h3 {
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media(max-width:575px){
+    .toggle_btn {
+        display: block;
+    }
+    section {
+        padding: 30px 0px;
+    }
+    .mr-0{
+        margin-right: 0px;
+    }
+    .mt-5 {
+        margin-top: 20px !important;
+    }
+    .row-reverse-mb{
+        flex-direction: column-reverse;
+    }
+    header {
+        background-color: black;
+    }
+    header nav .logo {
+        width: 35%;
+    }
+    .menu{
+        position: absolute;
+        background: #fff;
+        left: -100%;
+        top: 100%;
+        height: 100vh;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+    }
+    .menu-open{
+            position: absolute;
+            background: #fff;
+            top: 100%;
+            width: 100%;
+            height: 100vh;
+            left: 0;
+            transition: all 0.5s ease-in-out;
+    }
+    header nav .menu ul li {
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    header nav .menu ul li a {
+        color: #000;
+    }
+    header .toggle_btn .fa{
+        font-size: 25px;
+        color: #fff;
+    }
+    header #cross{
+        display: none;
+    }
+    .banner_contant .banner_left{
+        display: none;
+    }
+    form {
+        width: 85%;
+        margin: auto;
+        padding: 15px;
+    }
+    .banner_contant {
+        top: 14%;
+    }
+    form .form-control {
+        height: 30px;
+    }
+    .form-select {
+        height: 30px;
+        margin-bottom: 14px;
+    }
+    form label {
+        font-size: 12px;
+    }
+    form textarea {
+        height: 55px;
+    }
+    .video_banner .transparent {
+        height: 880px;
+    }
+    .video_banner video {
+        height: 880px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .main_hotel_tab {
+        margin-top: 165px;
+        padding-bottom: 0px;
+    }
+    button.tab__btn{
+        padding: 8px 0px;
+    }
+    .tab__btn span {
+        font-size: 13px;
+    }
+    .main_hotel_tab .hotel_list h5 {
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .main_hotel_tab .hotel_list ul li {
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .testimonial .testi_box {
+        padding: 30px 35px;
+    }
+    .testimonial .testi_box h3 {
+        font-size: 22px;
+    }
+    .testimonial .testi_box .hd-title {
+        font-size: 12px;
+    }
+    .testimonial .owl-nav.disabled {
+        display: none !important;
+    }
+    .testimonial .cta h3 {
+        display: none;
+    }
+    .testimonial .glbl-btn {
+        font-size: 15px;
+        margin: 18px auto 0px;
+        width: 68%;
+        display: block;
+    }
+    .partners .img-fluid {
+        margin-top: 20px;
+    }
+    footer {
+        padding: 30px 0px;
+    }
+    footer .box {
+        width: 100%;
+        border-bottom: 1px solid #e9eced38;
+        border-right: unset;
+        padding-bottom: 15px;
+    }
+    footer .contact_row .row .col-md-4:nth-child(2) .box{
+        margin: 14px 0px;
+    }
+    footer .contact_row .row .col-md-4:nth-child(3) .box{
+        border: unset;
+    }
+    footer .quicklinks {
+        margin-left: 0px;
+        margin: 20px 0px;
+    }
+    .msg {
+        margin:0px;
+        margin-bottom: 10px;
+    }
+    .modal-body form {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
+    .modal-header h5 {
+        font-size: 18px;
+    }
+    #exampleModal .btn-close {
+        top: 4px;
+        right: 5px;
+    }
+    .main_hotel_tab .hotel_list .glbl-btn {
+        font-size: 13px;
+    }
+    .testimonial .testi_box p {
+        line-height: 20px;
+        margin: 15px 0px;
+        font-size: 13px;
+    }
+}
